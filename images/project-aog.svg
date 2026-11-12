@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="AOG 智能问答系统项目封面占位图">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg2)"/>
+  <circle cx="940" cy="235" r="270" fill="url(#glow2)"/>
+  <!-- 知识图谱节点装饰 -->
+  <g stroke="#ffffff" stroke-opacity="0.6" stroke-width="2.5" fill="none">
+    <path d="M830 200 L930 150 L1030 210 M930 150 L960 270 M830 200 L960 270 M960 270 L1040 320"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="830" cy="200" r="10" fill-opacity="0.9"/>
+    <circle cx="930" cy="150" r="14" fill-opacity="0.95"/>
+    <circle cx="1030" cy="210" r="10" fill-opacity="0.9"/>
+    <circle cx="960" cy="270" r="12" fill-opacity="0.95"/>
+    <circle cx="1040" cy="320" r="8" fill-opacity="0.85"/>
+  </g>
+  <text x="80" y="520" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="64" font-weight="700" fill="#ffffff">AOG 智能问答系统</text>
+  <text x="80" y="580" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="28" fill="#ffffff" fill-opacity="0.75">RAG 检索增强生成 · 多知识库 · 流式对话</text>
+</svg>
